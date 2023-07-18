@@ -1,17 +1,12 @@
 #include"main.h"
 
 /**
- * main - prints Character by character to get a word
- * 
+ * main - print _putchar using putchar prototype
  *
- * Return: On success 0
+ * Return: Always 0 (success)
  *
- */
+*/
 
-int _putchar(char c)
-{
-	return write(1, &c, 1);
-}
 int main(void)
 {
 	_putchar('_');
@@ -23,5 +18,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
