@@ -7,12 +7,6 @@
  *
 */
 
-int main(void)
-{
-	void print_alphabet(void);
-	return (0);
-}
-
 void print_alphabet(void)
 {
 	char aletter = 'a';
