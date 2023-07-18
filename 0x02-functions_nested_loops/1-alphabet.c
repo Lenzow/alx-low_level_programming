@@ -1,19 +1,14 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * main - print _putchar using putchar prototype
- *
- * Return: Always 0 (success)
- *
-*/
+ * print_alphabet - its printing the alphabets in lowercase ended by a new line!
+ */
 
 void print_alphabet(void)
 {
-	char aletter = 'a';
-	while (aletter <= 'z')
-	{
-		_putchar(aletter);
-		aletter++;
-	}
+	char azletter;
+	for (azletter = 'a'; azletter <= 'z'; azletter++)
+		_putchar(azletter);
+
 	_putchar('\n');
 }
