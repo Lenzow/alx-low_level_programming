@@ -19,7 +19,7 @@ void print_alphabet(void)
 	while (aletter <= 'z')
 
 	{
-		putchar (aletter);
+		_putchar(aletter);
 		aletter++;
 	}
 	putchar('\n');
