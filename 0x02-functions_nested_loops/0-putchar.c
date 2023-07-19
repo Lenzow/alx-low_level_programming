@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * main - print _putchar using putchar prototype
+ * main - print "_putchar" using putchar prototype
  *
  * Return: Always 0 (success)
  *
