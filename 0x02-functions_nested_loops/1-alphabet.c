@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet - Witness the lowercase alphabet waltz on the stage of your console!
+ * print_alphabet - Witness the lowercase alphabet waltz
+ * on the stage of your console!
  */
 void print_alphabet(void)
 {
@@ -12,6 +13,5 @@ void print_alphabet(void)
 		_putchar(letter);
 		letter++;
 	}
-
 	_putchar('\n');
 }
