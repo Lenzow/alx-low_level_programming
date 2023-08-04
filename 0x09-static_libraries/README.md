@@ -1,1 +1,1 @@
- 0X09 Static Library
+static library
